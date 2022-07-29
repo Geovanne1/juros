@@ -1,0 +1,49 @@
+body {
+  padding: 18px;
+}
+
+.titulo {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+}
+
+.paragrafo {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  margin-right: 800px;
+}
+
+input{
+  padding-right: 20px;
+  padding: 15px 3px;
+  margin-bottom: 1rem;
+  border: 2px black solid;
+}
+
+.resposta {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.click {
+  border: 2px black solid;
+  width: 90px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 768px){
+  .titulo {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+  }
+}
+

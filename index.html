@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>Juros Compostos Mensal</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
   </head>
   <body>
     <main>
-      <h1>Juros Composto Mensal</h1>
-      <p>a cada calculo reiniciar a página para fazer outro calculo</p>
-      <input class="valor" placeholder="valor" type="number">
-      <input class="data" placeholder="meses" type="number">
-      <input class="porcentagem" placeholder="taxa juros" type="number">
-      <p class="resposta" placeholder="valor final" type="number">0</p>
+      <h1 class="titulo">Juros Composto Mensal</h1>
+      <p class="paragrafo">a cada calculo reiniciar a página para fazer outro calculo</p>
+      <section class="input">
+        <input class="valor" placeholder="valor" type="number">
+        <input class="data" placeholder="meses" type="number">
+        <input class="porcentagem" placeholder="taxa juros" type="number">
+        <p class="resposta" placeholder="valor final" type="number">0</p>
+      </section>
       <button class="click">calcular</button>
       <nav>
         <a href="jurosCompostoDiario.html">Juros Diario</a>
